@@ -1,0 +1,88 @@
+{
+    "currency": "INR",
+    "currencySymbol": "₹",
+    "baggage": {
+        "ratePerUnit": 500,
+        "unitKg": 5,
+        "maxExtraKg": 30,
+        "description": "₹500 per 5 kg"
+    },
+    "seats": {
+        "window": {
+            "price": 200,
+            "description": "Standard window seat"
+        },
+        "aisle": {
+            "price": 150,
+            "description": "Standard aisle seat"
+        },
+        "middle": {
+            "price": 0,
+            "description": "Middle seat (free)"
+        },
+        "extra-legroom": {
+            "price": 800,
+            "description": "Extra legroom seat with more space"
+        },
+        "premium": {
+            "price": 500,
+            "description": "Premium front-row seat"
+        }
+    },
+    "priority": {
+        "price": 0,
+        "description": "Priority check-in and boarding (complimentary)"
+    },
+    "wheelchair": {
+        "gate-to-gate": {
+            "price": 0,
+            "description": "Assistance from gate to gate"
+        },
+        "checkin-to-boarding": {
+            "price": 0,
+            "description": "Assistance from check-in to boarding"
+        },
+        "arrival-assistance": {
+            "price": 0,
+            "description": "Assistance upon arrival"
+        },
+        "full-assistance": {
+            "price": 0,
+            "description": "Complete assistance throughout journey"
+        }
+    },
+    "meals": {
+        "veg": {
+            "price": 350,
+            "description": "Vegetarian meal"
+        },
+        "non-veg": {
+            "price": 400,
+            "description": "Non-vegetarian meal"
+        },
+        "jain": {
+            "price": 400,
+            "description": "Jain meal"
+        },
+        "kids": {
+            "price": 300,
+            "description": "Kids meal"
+        }
+    },
+    "pets": {
+        "cabin": {
+            "maxWeight": 7,
+            "price": 3500,
+            "description": "Pet in cabin (max 7kg including carrier)"
+        },
+        "cargo": {
+            "minWeight": 7,
+            "price": 5000,
+            "description": "Pet in cargo hold"
+        }
+    },
+    "taxes": {
+        "gst": 0.05,
+        "applicable": false
+    }
+}

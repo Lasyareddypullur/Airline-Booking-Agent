@@ -1,0 +1,227 @@
+{
+    "bookings": {
+        "ABC123": {
+            "pnr": "ABC123",
+            "passengers": [
+                {
+                    "name": "Rahul Sharma",
+                    "type": "adult",
+                    "seatAssigned": null
+                },
+                {
+                    "name": "Sushma Verma",
+                    "type": "adult",
+                    "seatAssigned": null
+                }
+            ],
+            "flight": {
+                "number": "6E-2451",
+                "origin": "BLR",
+                "originCity": "Bangalore",
+                "destination": "DEL",
+                "destinationCity": "Delhi",
+                "date": "2026-02-15",
+                "departureTime": "08:30",
+                "arrivalTime": "11:15",
+                "aircraft": "Airbus A320"
+            },
+            "addOns": {
+                "seats": [],
+                "baggage": {
+                    "included": 15,
+                    "extra": 0
+                },
+                "priority": false,
+                "wheelchair": null,
+                "meals": []
+            },
+            "contact": {
+                "phone": "+91-9876543210",
+                "email": "rahul.sharma@email.com"
+            },
+            "totalPaid": 8500,
+            "currency": "INR"
+        },
+        "XYZ789": {
+            "pnr": "XYZ789",
+            "passengers": [
+                {
+                    "name": "Priya Patel",
+                    "type": "adult",
+                    "seatAssigned": "12A"
+                }
+            ],
+            "flight": {
+                "number": "6E-1234",
+                "origin": "MUM",
+                "originCity": "Mumbai",
+                "destination": "BLR",
+                "destinationCity": "Bangalore",
+                "date": "2026-02-20",
+                "departureTime": "14:00",
+                "arrivalTime": "15:45",
+                "aircraft": "Airbus A321"
+            },
+            "addOns": {
+                "seats": [
+                    {
+                        "passenger": "Priya Patel",
+                        "seat": "12A",
+                        "type": "window",
+                        "price": 200
+                    }
+                ],
+                "baggage": {
+                    "included": 15,
+                    "extra": 5
+                },
+                "priority": true,
+                "wheelchair": null,
+                "meals": [
+                    "veg"
+                ]
+            },
+            "contact": {
+                "phone": "+91-9123456789",
+                "email": "priya.patel@email.com"
+            },
+            "totalPaid": 6200,
+            "currency": "INR"
+        },
+        "DEF456": {
+            "pnr": "DEF456",
+            "passengers": [
+                {
+                    "name": "Amit Kumar",
+                    "type": "adult",
+                    "seatAssigned": null
+                },
+                {
+                    "name": "Neha Kumar",
+                    "type": "adult",
+                    "seatAssigned": null
+                },
+                {
+                    "name": "Aryan Kumar",
+                    "type": "child",
+                    "seatAssigned": null
+                }
+            ],
+            "flight": {
+                "number": "6E-8765",
+                "origin": "DEL",
+                "originCity": "Delhi",
+                "destination": "HYD",
+                "destinationCity": "Hyderabad",
+                "date": "2026-02-25",
+                "departureTime": "10:15",
+                "arrivalTime": "12:30",
+                "aircraft": "Airbus A320"
+            },
+            "addOns": {
+                "seats": [],
+                "baggage": {
+                    "included": 15,
+                    "extra": 0
+                },
+                "priority": false,
+                "wheelchair": null,
+                "meals": []
+            },
+            "contact": {
+                "phone": "+91-9988776655",
+                "email": "amit.kumar@email.com"
+            },
+            "totalPaid": 15600,
+            "currency": "INR"
+        },
+        "GHI321": {
+            "pnr": "GHI321",
+            "passengers": [
+                {
+                    "name": "Dr. Suresh Menon",
+                    "type": "adult",
+                    "seatAssigned": "1A"
+                }
+            ],
+            "flight": {
+                "number": "6E-4321",
+                "origin": "CHN",
+                "originCity": "Chennai",
+                "destination": "MUM",
+                "destinationCity": "Mumbai",
+                "date": "2026-03-01",
+                "departureTime": "06:00",
+                "arrivalTime": "08:15",
+                "aircraft": "Boeing 737"
+            },
+            "addOns": {
+                "seats": [
+                    {
+                        "passenger": "Dr. Suresh Menon",
+                        "seat": "1A",
+                        "type": "extra-legroom",
+                        "price": 800
+                    }
+                ],
+                "baggage": {
+                    "included": 15,
+                    "extra": 10
+                },
+                "priority": true,
+                "wheelchair": null,
+                "meals": [
+                    "non-veg"
+                ]
+            },
+            "contact": {
+                "phone": "+91-9444333222",
+                "email": "suresh.menon@email.com"
+            },
+            "totalPaid": 7800,
+            "currency": "INR"
+        },
+        "JKL654": {
+            "pnr": "JKL654",
+            "passengers": [
+                {
+                    "name": "Vikram Singh",
+                    "type": "adult",
+                    "seatAssigned": null
+                },
+                {
+                    "name": "Anita Singh",
+                    "type": "adult",
+                    "seatAssigned": null
+                }
+            ],
+            "flight": {
+                "number": "6E-9876",
+                "origin": "KOL",
+                "originCity": "Kolkata",
+                "destination": "DEL",
+                "destinationCity": "Delhi",
+                "date": "2026-03-10",
+                "departureTime": "16:30",
+                "arrivalTime": "18:45",
+                "aircraft": "Airbus A320"
+            },
+            "addOns": {
+                "seats": [],
+                "baggage": {
+                    "included": 15,
+                    "extra": 0
+                },
+                "priority": false,
+                "wheelchair": null,
+                "meals": []
+            },
+            "contact": {
+                "phone": "+91-9876123456",
+                "email": "vikram.singh@email.com"
+            },
+            "totalPaid": 11200,
+            "currency": "INR"
+        }
+    }
+}

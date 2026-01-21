@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyWings Airlines | Voice Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 48 48" fill="none">
+                    <circle cx="24" cy="24" r="20" fill="url(#logoGradient)" />
+                    <path d="M16 24L24 18L32 24L24 30L16 24Z" fill="white" opacity="0.9" />
+                    <defs>
+                        <linearGradient id="logoGradient" x1="4" y1="4" x2="44" y2="44">
+                            <stop offset="0%" stop-color="#a855f7" />
+                            <stop offset="100%" stop-color="#06b6d4" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-brand">SkyWings</span>
+                    <span class="logo-sub">Voice Assistant</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Voice Orb Section -->
+            <section class="orb-section">
+                <div class="orb-wrapper" id="orbWrapper">
+                    <!-- Outer glow layers -->
+                    <div class="orb-glow glow-outer"></div>
+                    <div class="orb-glow glow-middle"></div>
+                    <div class="orb-glow glow-inner"></div>
+
+                    <!-- Core orb -->
+                    <div class="orb-core">
+                        <div class="orb-shine"></div>
+                    </div>
+                </div>
+
+                <p class="orb-status" id="orbStatus">Tap to start</p>
+            </section>
+
+            <!-- Response Area -->
+            <section class="response-section">
+                <div class="response-card" id="responseCard">
+                    <div class="response-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                        </svg>
+                    </div>
+                    <p class="response-text" id="responseText">Click the orb to start a conversation</p>
+                </div>
+            </section>
+
+            <!-- Input Section -->
+            <section class="input-section" id="inputSection">
+                <div class="input-wrapper">
+                    <input type="text" id="textInput" class="text-input" placeholder="Type your message..."
+                        autocomplete="off">
+                    <button class="btn-mic" id="micBtn" title="Hold to speak">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z" />
+                            <path d="M19 10v2a7 7 0 01-14 0v-2" />
+                            <line x1="12" y1="19" x2="12" y2="23" />
+                        </svg>
+                    </button>
+                    <button class="btn-send" id="sendBtn" title="Send">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Call Control -->
+            <section class="control-section">
+                <button class="call-button" id="callBtn">
+                    <div class="call-icon">
+                        <svg class="icon-start" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                        </svg>
+                        <svg class="icon-end" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 9c-1.6 0-3.15.25-4.6.72v3.1c0 .39-.23.74-.56.9-.98.49-1.87 1.12-2.66 1.85-.18.18-.43.28-.7.28-.28 0-.53-.11-.71-.29L.29 13.08c-.18-.18-.29-.43-.29-.7 0-.28.11-.53.29-.71C3.34 8.78 7.46 7 12 7s8.66 1.78 11.71 4.67c.18.18.29.43.29.71 0 .28-.11.53-.29.71l-2.48 2.48c-.18.18-.43.29-.71.29-.27 0-.52-.1-.7-.28-.79-.73-1.68-1.36-2.66-1.85a.996.996 0 01-.56-.9v-3.1C15.15 9.25 13.6 9 12 9z" />
+                        </svg>
+                    </div>
+                    <span class="call-text" id="callText">Start Conversation</span>
+                </button>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="quick-actions">
+                <span class="quick-label">Quick test:</span>
+                <button class="quick-btn" onclick="app.quickSend('My PNR is ABC123')">ABC123</button>
+                <button class="quick-btn" onclick="app.quickSend('My PNR is XYZ789')">XYZ789</button>
+                <button class="quick-btn" onclick="app.quickSend('My PNR is DEF456')">DEF456</button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/voice-engine.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

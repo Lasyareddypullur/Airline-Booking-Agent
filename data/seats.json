@@ -1,0 +1,192 @@
+{
+    "aircraft": {
+        "A320": {
+            "rows": 30,
+            "columns": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ],
+            "exitRows": [
+                12,
+                13
+            ],
+            "premiumRows": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    "seatTypes": {
+        "window": {
+            "columns": [
+                "A",
+                "F"
+            ],
+            "basePrice": 200,
+            "label": "Window Seat"
+        },
+        "aisle": {
+            "columns": [
+                "C",
+                "D"
+            ],
+            "basePrice": 150,
+            "label": "Aisle Seat"
+        },
+        "middle": {
+            "columns": [
+                "B",
+                "E"
+            ],
+            "basePrice": 0,
+            "label": "Middle Seat"
+        },
+        "extra-legroom": {
+            "rows": [
+                12,
+                13
+            ],
+            "basePrice": 800,
+            "label": "Extra Legroom Seat"
+        },
+        "premium": {
+            "rows": [
+                1,
+                2,
+                3
+            ],
+            "basePrice": 500,
+            "label": "Premium Seat"
+        }
+    },
+    "availability": {
+        "6E-2451": {
+            "occupied": [
+                "1A",
+                "1B",
+                "2C",
+                "3D",
+                "5A",
+                "5B",
+                "8F",
+                "10A",
+                "10B",
+                "12A",
+                "12B",
+                "15C",
+                "15D",
+                "20A",
+                "25F"
+            ],
+            "blocked": [
+                "1C",
+                "1D",
+                "30A",
+                "30B",
+                "30C",
+                "30D",
+                "30E",
+                "30F"
+            ]
+        },
+        "6E-1234": {
+            "occupied": [
+                "1A",
+                "2A",
+                "3A",
+                "5C",
+                "7D",
+                "9F",
+                "11A",
+                "12A",
+                "14B",
+                "18C",
+                "22D"
+            ],
+            "blocked": [
+                "30A",
+                "30B",
+                "30C",
+                "30D",
+                "30E",
+                "30F"
+            ]
+        },
+        "6E-8765": {
+            "occupied": [
+                "1B",
+                "2C",
+                "4A",
+                "6D",
+                "8F",
+                "10A",
+                "13C",
+                "16D",
+                "19A",
+                "23F"
+            ],
+            "blocked": [
+                "1C",
+                "1D",
+                "30A",
+                "30B",
+                "30C",
+                "30D",
+                "30E",
+                "30F"
+            ]
+        },
+        "6E-4321": {
+            "occupied": [
+                "1A",
+                "1B",
+                "2A",
+                "3C",
+                "5D",
+                "7F",
+                "9A",
+                "11B",
+                "15C",
+                "20D",
+                "24A"
+            ],
+            "blocked": [
+                "30A",
+                "30B",
+                "30C",
+                "30D",
+                "30E",
+                "30F"
+            ]
+        },
+        "6E-9876": {
+            "occupied": [
+                "2A",
+                "3B",
+                "5C",
+                "7D",
+                "9F",
+                "12A",
+                "14B",
+                "17C",
+                "21D",
+                "26F"
+            ],
+            "blocked": [
+                "1C",
+                "1D",
+                "30A",
+                "30B",
+                "30C",
+                "30D",
+                "30E",
+                "30F"
+            ]
+        }
+    }
+}
